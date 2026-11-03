@@ -10,3 +10,7 @@ import YangMills.StrongCoupling.Thresholds
 import YangMills.StrongCoupling.GaugeFix
 import YangMills.StrongCoupling.CubeOpen
 import YangMills.StrongCoupling.BlockGauge
+import YangMills.StrongCoupling.DobrushinComparison
+import YangMills.StrongCoupling.CouplingMinimality
+import YangMills.StrongCoupling.WassersteinBridge
+import YangMills.StrongCoupling.CouplingMinimizer
