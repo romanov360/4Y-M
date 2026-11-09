@@ -265,3 +265,10 @@ drift at fixed ℓg²; a proof of the step-1 monotonicity in k.
 - 2026-11-09 — Fixed-box run, interim (β = 20/25 partly done): no finite-box effect (β = 5 at L = 16 = at L = 32). c₀ + c₁a over β = 5–25 fits (χ² 7.9/15, c₀ ≈ 0.98–1.09 ± 0.02); c·aᵖ disfavoured (χ² 29.9/15). The pre-registered β25/β10 rule lands in the gap (0.89–0.92), as the linear model predicts. A_GAUSSIAN_FIBRE_4D §10.8. Next: final numbers when the job ends, then merge PR #290.
 
 - 2026-11-09 — Fixed-box run final (§10.8): c₀ + c₁a χ² 9.4/15, c₀ ≈ 0.98–1.08 ± 0.016; c·aᵖ χ² 31.7/15 (disfavoured, p-value 0.007). Pre-registered rule inconclusive (0.89–0.92). SU(2)₃ evidence for (U): favoured, not proven. PR #290 complete and ready to merge. Next directions (new PR): 4D SU(2) analogue of §10.8 at modest β; sharpen the free-field factor 5 to 1.
+
+## 2026-11-09 — branch research/next-steps-4 (after PR #290 merged)
+
+Started direction (a): 4D SU(2) analogue of §10.8. New `forest/experiments/su2bp4d/` (su2bp4d.c, the 3D
+estimator generalised to D = 4; pure-Python analyze4d.py; run.sh). Plan: fixed box L·√σ ≈ 2.1–2.2 at
+β = 2.4, 2.5, 2.6 (L = 8, 12, 16), cubes at n/L = 1/4, 3/8, 1/2, plus an n = L selftest (ϖ must be 1).
+Short local checks: plaquette 0.61 at β = 2.3 (matches the known ≈0.60); selftest consistent with 1.
